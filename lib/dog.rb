@@ -4,7 +4,7 @@ class Dog
     if breed == ""
       @breed = "Mutt"
     else @breed = breed
-  end
+    end
   end
   attr_accessor :name 
   attr_accessor :breed 
